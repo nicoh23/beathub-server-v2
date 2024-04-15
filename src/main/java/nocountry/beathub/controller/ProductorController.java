@@ -18,6 +18,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/productor")
+@CrossOrigin("*")
 @Tag(name="Controlador de productor", description = "Controlador de para acceder a las operaciones del productor")
 public class ProductorController {
 
