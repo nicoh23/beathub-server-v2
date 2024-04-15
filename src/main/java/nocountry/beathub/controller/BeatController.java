@@ -18,6 +18,7 @@ import java.util.List;
 
 @RequiredArgsConstructor
 @RestController
+@CrossOrigin("*")
 @RequestMapping(path = "/api/beat")
 @Tag(name="Controlador de Beat", description = "Controlador para acceder a las operaciones del Beat")
 public class BeatController {
